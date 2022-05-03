@@ -1,0 +1,13 @@
+Part I : Run
+1. To Compile:
+    $ make
+2. To Run:
+    $ ./a.out
+
+The ends of each trace in both euler and RK4 image are connected to each other.
+The reason for that is matplotlib-cpp (the wrapper of python matplotlib 
+https://matplotlib-cpp.readthedocs.io/en/latest/) seems like that it doesn't 
+support draw multiple 3d line inside one plot.
+
+
+
